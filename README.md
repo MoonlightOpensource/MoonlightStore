@@ -4,3 +4,4 @@ Requisitos
 *Flask Admin*
 *Flask*
 *Python 3*
+*CSS*
