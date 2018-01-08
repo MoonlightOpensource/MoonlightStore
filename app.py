@@ -48,10 +48,50 @@ def general():
 	context = {"page_title": "Moonlight Store", "current_year": date.today().year}
 	return render_template('general.html')
 
+@app.route('/')
+def grid_view():
+	context = {"page_title": "Moonlight Store", "current_year": date.today().year}
+	return render_template('grid-view.html')
 
+@app.route('/')
+def header():
+	context = {"page_title": "Moonlight Store", "current_year": date.today().year}
+	return render_template('header.html')
 
+@app.route('/')
+def list_view():
+	context = {"page_title": "Moonlight Store", "current_year": date.today().year}
+	return render_template('list-view.html')
 
+@app.route('/')
+def login():
+	context = {"page_title": "Moonlight Store", "current_year": date.today().year}
+	return render_template('login.html')
 
+@app.route('/')
+def product_details():
+	context = {"page_title": "Moonlight Store", "current_year": date.today().year}
+	return render_template('product_details.html')
+
+@app.route('/')
+def products():
+	context = {"page_title": "Moonlight Store", "current_year": date.today().year}
+	return render_template('products.html')
+
+@app.route('/')
+def register():
+	context = {"page_title": "Moonlight Store", "current_year": date.today().year}
+	return render_template('register.html')
+
+@app.route('/')
+def sidebar():
+	context = {"page_title": "Moonlight Store", "current_year": date.today().year}
+	return render_template('sidebar.html')
+
+@app.route('/')
+def three_col():
+	context = {"page_title": "Moonlight Store", "current_year": date.today().year}
+	return render_template('three-col.html')
 
 
 
